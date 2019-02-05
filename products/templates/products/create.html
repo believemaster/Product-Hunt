@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if error %}
+	{{ error }}
+	<br>
+	<br>
+{% endif %}
+
+
+
+<h1 class="display-2">Create Product</h1>
+
+<form class="" action="{% url 'create' %}" enctype="multipart/form-data" method="POST">
+	{% csrf_token %}
+	Title
+	<br>
+	<input class="form-group" type="text" name="title" value="" />
+	<br>
+	Body
+	<br>
+	<input class="form-group" type="text" name="body" value="" />
+	<br>
+	Url
+	<br>
+	<input class="form-group" type="text" name="url" value="" />
+	<br>
+	Icon
+	<br>
+	<input class="form-group" type="file" name="icon" value="" />
+	<br>
+	Image
+	<br>
+	<input class="form-group" type="file" name="image" value="" />
+	<br>
+
+	<input type="submit" class="btn btn-outline-lead my-2" value="Add Product" />
+</form>
+
+{% endblock %}
