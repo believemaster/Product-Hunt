@@ -9,3 +9,6 @@ this is the basic app you could build.
 ## Content Included:
 It includes the django forms for LOGIN and REGISTER view and yes it has feature of registering the user and login in feature.
 if a person is login he/she can add his/her products in the list and the produts can be rated by other people in the and can upvote the product.
+
+### What was purpose ?
+There is nothing important for me more than gaining more knowlede and learning new technologies so that i can update myself and other people with what is present in today's scenario. Moreover so that I can guide anyone what to learn and which thing suits them.
